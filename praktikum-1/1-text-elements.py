@@ -7,7 +7,7 @@ st.header("""This is our Header""")
 st.subheader("""This is our Sub-Header""")
 st.caption("""This is our Caption""")
 
-st.text("Hi, \nPeople\t!!!!!!!!")
+st.text("Hi, \nPeople\t!")
 st.text('Welcome to')
 st.text(""" Streamlit's World""")
 
