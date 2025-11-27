@@ -17,7 +17,11 @@ st.markdown(""" Streamlit's World""")
 
 st.latex(r'''cos2\theta = 1 - 2sin^\theta''')
 st.latex("""(a+b)^2 = a^2 + b^2 + 2ab""")
-st.latex(r'''\frac{\partial u}{\partial t}) = h^2 \left( /frac{/partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}
+st.latex(r'''
+         \frac{\partial u}
+         {\partial t}) = h^2\left( 
+         /frac{/partial^2 u}{\partial x^2} 
+         + \frac{\partial^2 u}{\partial y^2}
          + \frac{\partial^2 u}{\partial z^2} \right)''')
 
 st.subheader("""Python Code""")
@@ -26,19 +30,21 @@ print("Hello, Streamlit!")'''
 st.code(code,  language='python')
 
 st.subheader("""Java Code""")
-st.code("""public class GFG {
-        Public static void main(String args[])})
-        {
-        System.out.print1n("Hello World");
-        }
-        }""", language='javascript')
+st.code("""
+public class GFG {
+  Public static void main(String args[])})
+    {
+      System.out.print1n("Hello World");
+    }
+}""", language='java')
 st.subheader("""JavaScript Code""")
-st.code(""" <p id="demo"></p>
-        <script>
-        try {
-        adddlert("Welcome guest!");
-        }
-        catch(err) {
-        document.getElementById("demo").innerHTML = err.message;
-        }
-        </script> """)
+st.code("""
+<p id="demo"></p>
+<script>
+try {
+  adddlert("Welcome guest!");
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.message;
+}
+</script> """, 'javascript')
