@@ -34,7 +34,7 @@ def customize_line_plot():
 
 def trend_lines_plot():
     fig, ax = plt.subplots()
-    ax.plot(months, product_A_sales, label='Product A Trend', linestyle='--', color='purple')
+    ax.plot(months, product_A_sales, label='Product A Trend', linestyle='--', color='')
     ax.plot(months, product_B_sales, label='Product B Trend', linestyle='-', color='red')
     ax.set_title('Tren Penjualan Produk Per Bulan')
     ax.set_xlabel('Bulan')
