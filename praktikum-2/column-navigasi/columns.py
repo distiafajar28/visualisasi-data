@@ -6,3 +6,4 @@ col1.image("D:/animal1.jpg")
 
 col2.write("Second Column")
 col2.image("D:/animal2.jpg")
+st.write("This is outside the columns.")
