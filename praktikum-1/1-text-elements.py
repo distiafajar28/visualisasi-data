@@ -1,6 +1,6 @@
 import streamlit as st
 st.write("Hello")
-st.write('World!!!')
+st.write('World!')
 
 st.title("This is our Title")
 st.header("""This is our Header""")
