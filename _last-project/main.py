@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # 1. Page Config
-st.set_page_config(page_title="Kelompok 12 - Dashboard Energi Industri Baja", layout="wide")
+st.set_page_config(page_title="Dashboard Energi Industri Baja", layout="wide")
 
 # 2. Load Data Function
 @st.cache_data
