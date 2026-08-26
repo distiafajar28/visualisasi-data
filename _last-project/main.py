@@ -48,11 +48,8 @@ filtered_df = df[
 
 # 4. Main Dashboard
 st.title("🏭 Dashboard Konsumsi Energi Industri Baja")
-st.write("Kelompok 12")
 st.markdown("""
 - Distia Fajar Familiati 0110222163
-- Sabrina Ramadhani 0110222068
-- Muhammad Faris Zacky 0110222227
 """)
 st.markdown("---")
 
