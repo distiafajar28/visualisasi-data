@@ -9,7 +9,7 @@ st.set_page_config(page_title="Kelompok 12 - Dashboard Energi Industri Baja", la
 @st.cache_data
 def load_data():
     # Load dataset
-    df = pd.read_csv("data/steel_industry_data_cleaned.csv")
+    df = pd.read_csv("_last-project/data/steel_industry_data_cleaned.csv")
     
     # Check and convert 'date' column to datetime
     df['date'] = pd.to_datetime(df['date']) 
